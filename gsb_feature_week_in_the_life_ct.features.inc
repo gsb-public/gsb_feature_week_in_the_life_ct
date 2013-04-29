@@ -26,7 +26,7 @@ function gsb_feature_week_in_the_life_ct_node_info() {
     'week_in_the_life' => array(
       'name' => t('Week In The Life'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Describes a week in the life of an MBA student.'),
       'has_title' => '1',
       'title_label' => t('Full Name'),
       'help' => '',
