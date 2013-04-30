@@ -422,7 +422,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -485,7 +485,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'conditions' => array(),
@@ -551,7 +551,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'date',
         'settings' => array(
           'conditions' => array(),
@@ -963,7 +963,11 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   // Exported field_instance: 'node-week_in_the_life-field_witl_archive'
   $field_instances['node-week_in_the_life-field_witl_archive'] = array(
     'bundle' => 'week_in_the_life',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(

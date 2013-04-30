@@ -79,7 +79,26 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_field_collection_item__field_witl_journal_entry_3';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'ical' => array(
+        'custom_settings' => TRUE,
+      ),
+      'tiny' => array(
+        'custom_settings' => TRUE,
+      ),
+      'research_pager' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      'people_fpp' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
       'form' => array(),
       'display' => array(),
