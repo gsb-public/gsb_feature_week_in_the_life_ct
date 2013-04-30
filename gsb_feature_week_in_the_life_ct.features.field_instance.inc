@@ -151,7 +151,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'module' => 'date',
         'settings' => array(
           'conditions' => array(),
-          'format_type' => 'long',
+          'format_type' => 'time_only',
           'fromto' => 'both',
           'multiple_from' => '',
           'multiple_number' => '',
@@ -353,7 +353,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'module' => 'date',
         'settings' => array(
           'conditions' => array(),
-          'format_type' => 'long',
+          'format_type' => 'time_only',
           'fromto' => 'both',
           'multiple_from' => '',
           'multiple_number' => '',
@@ -555,7 +555,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'module' => 'date',
         'settings' => array(
           'conditions' => array(),
-          'format_type' => 'long',
+          'format_type' => 'time_only',
           'fromto' => 'both',
           'multiple_from' => '',
           'multiple_number' => '',
