@@ -6,6 +6,10 @@
 
 include_once 'gsb_feature_week_in_the_life_ct.features.inc';
 
+
+/**
+ * Implements hook_date_combo_process_alter() for week in the life node edit form.
+ */
 function gsb_feature_week_in_the_life_ct_date_combo_process_alter(&$element, &$form_state, $context) {
   $form = $context['form'];
   if ($form['#bundle'] == 'week_in_the_life') {
