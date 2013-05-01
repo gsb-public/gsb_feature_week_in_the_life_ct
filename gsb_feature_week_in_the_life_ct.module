@@ -5,3 +5,19 @@
  */
 
 include_once 'gsb_feature_week_in_the_life_ct.features.inc';
+
+function gsb_feature_week_in_the_life_ct_date_combo_process_alter(&$element, &$form_state, $context) {
+  $form = $context['form'];
+  if ($form['#bundle'] == 'week_in_the_life') {
+    if ($element['#field_name'] == 'field_time') {
+      $element['#after_build'][] = 'gsb_feature_week_in_the_life_ct_hide_year';
+    }
+  }
+}
+
+function gsb_feature_week_in_the_life_ct_hide_year($element, &$form_state) {
+  if ($element['#field_name'] == 'field_time') {
+    $element['value']['year']['#access'] = FALSE;
+  }
+  return $element;
+}
