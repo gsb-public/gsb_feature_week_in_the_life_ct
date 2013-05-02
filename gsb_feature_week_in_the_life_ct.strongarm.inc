@@ -13,6 +13,27 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'auto_entitylabel_node_week_in_the_life';
+  $strongarm->value = '1';
+  $export['auto_entitylabel_node_week_in_the_life'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'auto_entitylabel_pattern_node_week_in_the_life';
+  $strongarm->value = '[node:field_first_name] [node:field_middle_name] [node:field_last_name]';
+  $export['auto_entitylabel_pattern_node_week_in_the_life'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'auto_entitylabel_php_node_week_in_the_life';
+  $strongarm->value = 0;
+  $export['auto_entitylabel_php_node_week_in_the_life'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_field_collection_item__field_witl_journal_entry_1';
   $strongarm->value = array(
     'view_modes' => array(
@@ -154,6 +175,9 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'media_contact' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -165,6 +189,9 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
         ),
         'path' => array(
           'weight' => '15',
+        ),
+        'workbench_access' => array(
+          'weight' => '0',
         ),
       ),
       'display' => array(),
