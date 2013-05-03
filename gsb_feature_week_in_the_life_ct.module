@@ -22,6 +22,7 @@ function gsb_feature_week_in_the_life_ct_date_combo_process_alter(&$element, &$f
 function gsb_feature_week_in_the_life_ct_hide_year($element, &$form_state) {
   if ($element['#field_name'] == 'field_time') {
     $element['value']['year']['#access'] = FALSE;
+    $element['value']['year']['#value'] = '1970';
   }
   return $element;
 }
