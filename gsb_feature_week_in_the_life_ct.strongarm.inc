@@ -178,6 +178,12 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
       'media_contact' => array(
         'custom_settings' => FALSE,
       ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'event_upcoming' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
