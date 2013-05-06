@@ -175,12 +175,16 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       0 => 'field_image_single_public',
       1 => 'field_year',
     ),
-    'format_type' => 'fieldset',
+    'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Photo wrap',
       'instance_settings' => array(
-        'classes' => 'witl-listing-ph-wrp',
+        'classes' => '',
         'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'none',
       ),
       'formatter' => 'open',
     ),

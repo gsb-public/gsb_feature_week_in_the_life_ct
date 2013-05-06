@@ -22,6 +22,13 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
       'label' => 'hidden',
       'format' => 'default',
     ),
+    'field_witl_post_mba_goals' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'lb' => 'Post Grad Goals',
+        ),
+      ),
+    ),
   );
   $export['node|week_in_the_life|default'] = $ds_fieldsetting;
 

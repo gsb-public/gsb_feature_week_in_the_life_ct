@@ -791,7 +791,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 9,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -856,7 +856,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 11,
+        'weight' => 17,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -921,7 +921,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 12,
+        'weight' => 18,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -990,7 +990,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 13,
+        'weight' => 19,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1056,7 +1056,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 15,
+        'weight' => 21,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1121,7 +1121,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 14,
+        'weight' => 20,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1186,7 +1186,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 10,
+        'weight' => 16,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1247,7 +1247,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 9,
+        'weight' => 15,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1315,7 +1315,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 6,
+        'weight' => 12,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1388,7 +1388,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 5,
+        'weight' => 11,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1454,7 +1454,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 4,
+        'weight' => 10,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1520,7 +1520,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 7,
+        'weight' => 13,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -1557,7 +1557,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'hidden',
+        'label' => 'above',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -1578,12 +1578,13 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'hidden',
+        'label' => 'above',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
+          'trim_length' => 110,
         ),
-        'type' => 'text_default',
+        'type' => 'text_trimmed',
         'weight' => 2,
       ),
       'tiny' => array(
@@ -1654,7 +1655,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 8,
+        'weight' => 14,
       ),
       'tiny' => array(
         'label' => 'above',
