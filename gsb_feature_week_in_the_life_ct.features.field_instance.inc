@@ -697,7 +697,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
         'weight' => 26,
@@ -718,9 +718,13 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => '',
+            ),
+          ),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
         'weight' => 1,
