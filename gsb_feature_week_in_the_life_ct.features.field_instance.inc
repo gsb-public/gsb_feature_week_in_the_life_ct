@@ -84,9 +84,13 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => '',
+            ),
+          ),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -288,7 +292,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -490,7 +494,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => '270x270',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -643,13 +647,9 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       ),
       'teaser' => array(
         'label' => 'hidden',
-        'module' => 'gsb_feature_research_paper_display',
-        'settings' => array(
-          'conditions' => array(),
-          'view_mode' => 'research_pager',
-        ),
-        'type' => 'gsb_research_papers_formatter',
-        'weight' => 1,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -718,12 +718,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
-          'conditions' => array(
-            0 => array(
-              'condition' => '',
-            ),
-          ),
-          'image_link' => '',
+          'conditions' => array(),
+          'image_link' => 'content',
           'image_style' => '270x270',
         ),
         'type' => 'image',
@@ -1589,7 +1585,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'trim_length' => 110,
         ),
         'type' => 'text_trimmed',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'tiny' => array(
         'label' => 'above',

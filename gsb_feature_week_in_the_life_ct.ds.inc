@@ -39,8 +39,20 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'week_in_the_life';
   $ds_fieldsetting->view_mode = 'teaser';
   $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '1',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '1',
+        'wrapper' => '',
+        'class' => '',
+        'ft' => array(),
+        'conditions' => array(),
+      ),
+    ),
     'node_link' => array(
-      'weight' => '3',
+      'weight' => '4',
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
@@ -138,7 +150,7 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'group_witl_listing_wrap',
-        1 => 'field_first_name',
+        1 => 'title',
         2 => 'field_image_single_public',
         3 => 'field_year',
         4 => 'field_witl_post_mba_goals',
@@ -147,7 +159,7 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     ),
     'fields' => array(
       'group_witl_listing_wrap' => 'ds_content',
-      'field_first_name' => 'ds_content',
+      'title' => 'ds_content',
       'field_image_single_public' => 'ds_content',
       'field_year' => 'ds_content',
       'field_witl_post_mba_goals' => 'ds_content',
