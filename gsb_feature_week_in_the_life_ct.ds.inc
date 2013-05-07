@@ -63,6 +63,11 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
         'conditions' => array(),
       ),
     ),
+    'field_witl_post_mba_goals' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
+      ),
+    ),
   );
   $export['node|week_in_the_life|teaser'] = $ds_fieldsetting;
 
