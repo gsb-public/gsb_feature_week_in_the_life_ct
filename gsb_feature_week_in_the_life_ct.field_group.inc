@@ -21,7 +21,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'First Day',
-    'weight' => '11',
+    'weight' => '13',
     'children' => array(
       0 => 'field_witl_day_of_week_1',
       1 => 'field_witl_journal_entry_1',
@@ -49,7 +49,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Second Day',
-    'weight' => '12',
+    'weight' => '14',
     'children' => array(
       0 => 'field_witl_day_of_week_2',
       1 => 'field_witl_journal_entry_2',
@@ -77,7 +77,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Third Day',
-    'weight' => '13',
+    'weight' => '15',
     'children' => array(
       0 => 'field_witl_day_of_week_3',
       1 => 'field_witl_journal_entry_3',
@@ -107,7 +107,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'label' => 'First Day',
     'weight' => '2',
     'children' => array(
-      0 => 'field_witl_day_of_week_3',
+      0 => 'field_witl_day_of_week_1',
       1 => 'field_witl_journal_entry_1',
     ),
     'format_type' => 'div',
@@ -331,7 +331,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'label' => 'Third day',
     'weight' => '4',
     'children' => array(
-      0 => 'field_witl_day_of_week_1',
+      0 => 'field_witl_day_of_week_3',
       1 => 'field_witl_journal_entry_3',
     ),
     'format_type' => 'div',

@@ -680,7 +680,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
@@ -757,7 +757,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 7,
+      'weight' => 8,
     ),
     'workbench_access_field' => 0,
   );
@@ -822,7 +822,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -887,7 +887,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -952,7 +952,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -1015,7 +1015,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'maxlength_js_label' => '',
       ),
       'type' => 'options_onoff',
-      'weight' => 14,
+      'weight' => 12,
     ),
     'workbench_access_field' => 0,
   );
@@ -1168,7 +1168,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'list_default',
-        'weight' => 13,
+        'weight' => 19,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1273,12 +1273,12 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => 0,
-        'maxlength_js_label' => '',
+        'maxlength_js' => 1,
+        'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 10,
+      'weight' => 11,
     ),
     'workbench_access_field' => 0,
   );
@@ -1341,12 +1341,12 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => 0,
-        'maxlength_js_label' => '',
+        'maxlength_js' => 1,
+        'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 9,
+      'weight' => 10,
     ),
     'workbench_access_field' => 0,
   );
@@ -1366,7 +1366,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'view_mode' => 'full',
         ),
         'type' => 'field_collection_fields',
-        'weight' => 19,
+        'weight' => 20,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1490,7 +1490,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'view_mode' => 'full',
         ),
         'type' => 'field_collection_fields',
-        'weight' => 19,
+        'weight' => 20,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1599,14 +1599,14 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => '',
+        'maxlength_js' => 150,
         'maxlength_js_enforce' => 0,
-        'maxlength_js_label' => 'Post MBA Goals is limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
         'maxlength_js_truncate_html' => 0,
         'rows' => 3,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -1656,7 +1656,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_witl_under_photo_facts',
     'label' => 'Under Photo Facts',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'linkit' => array(
         'enable' => 0,
@@ -1669,12 +1669,12 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => 0,
-        'maxlength_js_label' => '',
+        'maxlength_js' => 1,
+        'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 8,
+      'weight' => 9,
     ),
     'workbench_access_field' => 0,
   );
@@ -1761,7 +1761,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_text',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
