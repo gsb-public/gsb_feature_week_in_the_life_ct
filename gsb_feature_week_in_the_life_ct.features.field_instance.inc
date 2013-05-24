@@ -689,7 +689,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances['node-week_in_the_life-field_image_single_public'] = array(
     'bundle' => 'week_in_the_life',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -1780,6 +1780,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   t('Middle Name');
   t('Photo');
   t('Post MBA Goals');
+  t('Recommended size for uploaded images is 600x440.');
   t('Salutation');
   t('Time');
   t('Under Photo Facts');
