@@ -78,7 +78,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -284,7 +284,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -486,7 +486,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Recommended size for uploaded images is 600x440.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
