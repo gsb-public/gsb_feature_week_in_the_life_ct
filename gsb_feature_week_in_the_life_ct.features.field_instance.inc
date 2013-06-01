@@ -957,6 +957,86 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-week_in_the_life-field_search_field'
+  $field_instances['node-week_in_the_life-field_search_field'] = array(
+    'bundle' => 'week_in_the_life',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'concat_field',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'concat_field_blank',
+        'weight' => 29,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'tiny' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_search_field',
+    'label' => 'Search field',
+    'required' => 0,
+    'settings' => array(
+      'selected_fields' => array(
+        'concat_field_entity_label' => 'concat_field_entity_label',
+        'field_first_name' => 'field_first_name',
+        'field_image_single_public' => 0,
+        'field_last_name' => 'field_last_name',
+        'field_middle_name' => 'field_middle_name',
+        'field_salutation' => 'field_salutation',
+        'field_witl_archive' => 'field_witl_archive',
+        'field_witl_day_of_week_1' => 'field_witl_day_of_week_1',
+        'field_witl_day_of_week_2' => 'field_witl_day_of_week_2',
+        'field_witl_day_of_week_3' => 'field_witl_day_of_week_3',
+        'field_witl_facts' => 'field_witl_facts',
+        'field_witl_facts_title' => 'field_witl_facts_title',
+        'field_witl_journal_entry_1' => 'field_witl_journal_entry_1',
+        'field_witl_journal_entry_2' => 'field_witl_journal_entry_2',
+        'field_witl_journal_entry_3' => 'field_witl_journal_entry_3',
+        'field_witl_post_mba_goals' => 'field_witl_post_mba_goals',
+        'field_witl_under_photo_facts' => 'field_witl_under_photo_facts',
+        'field_year' => 'field_year',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'concat_field',
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
+      'type' => 'concat_field_default',
+      'weight' => 19,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-week_in_the_life-field_witl_archive'
   $field_instances['node-week_in_the_life-field_witl_archive'] = array(
     'bundle' => 'week_in_the_life',
@@ -1782,6 +1862,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   t('Post MBA Goals');
   t('Recommended size for uploaded images is 600x440.');
   t('Salutation');
+  t('Search field');
   t('Time');
   t('Under Photo Facts');
 
