@@ -43,9 +43,6 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
       'tiny' => array(
         'custom_settings' => TRUE,
       ),
-      'research_pager' => array(
-        'custom_settings' => TRUE,
-      ),
       'full' => array(
         'custom_settings' => FALSE,
       ),
@@ -78,9 +75,6 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
       'tiny' => array(
         'custom_settings' => TRUE,
       ),
-      'research_pager' => array(
-        'custom_settings' => TRUE,
-      ),
       'full' => array(
         'custom_settings' => FALSE,
       ),
@@ -111,9 +105,6 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
         'custom_settings' => TRUE,
       ),
       'tiny' => array(
-        'custom_settings' => TRUE,
-      ),
-      'research_pager' => array(
         'custom_settings' => TRUE,
       ),
       'full' => array(
