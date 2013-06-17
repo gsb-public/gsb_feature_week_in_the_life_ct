@@ -1307,7 +1307,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'settings' => array(
         'maxlength_js' => 1,
         'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'size' => 60,
+        'size' => 250,
       ),
       'type' => 'text_textfield',
       'weight' => 11,
@@ -1631,7 +1631,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => 150,
+        'maxlength_js' => 250,
         'maxlength_js_enforce' => 0,
         'maxlength_js_label' => 'Content is limited to @limit characters, remaining: <strong>@remaining</strong>',
         'maxlength_js_truncate_html' => 0,

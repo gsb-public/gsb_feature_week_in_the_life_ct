@@ -1,0 +1,18 @@
+<?php
+
+
+/**
+ * Update Facts field to 250 length 
+ */
+function gsb_feature_week_in_the_life_ct_update_7000() {
+  db_query('ALTER TABLE field_data_field_witl_facts CHANGE  field_witl_facts_value field_witl_facts_value VARCHAR( 250 ) NULL DEFAULT NULL');
+  db_query('ALTER TABLE field_revision_field_witl_facts CHANGE  field_witl_facts_value field_witl_facts_value VARCHAR( 250 ) NULL DEFAULT NULL');
+  $field = db_select('field_config', 'f')->fields('f', array('id', 'data'))->condition('field_name', 'field_witl_facts')->execute()->fetchAssoc();
+  if ($field) {
+    $data = unserialize($field['data']);
+    $data['settings']['max_length'] = 250;
+    $data = serialize($data);
+    db_query('UPDATE field_config SET data = :data WHERE field_name = :field_name',
+      array(':data' => $data, ':field_name' => 'field_witl_facts'));
+  }
+}
