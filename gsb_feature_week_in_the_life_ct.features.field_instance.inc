@@ -1598,7 +1598,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'hidden',
+        'label' => 'above',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
