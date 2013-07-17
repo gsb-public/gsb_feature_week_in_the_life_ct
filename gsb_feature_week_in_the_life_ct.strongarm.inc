@@ -247,7 +247,7 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_week_in_the_life_pattern';
-  $strongarm->value = 'programs/mba/student-life/gsb-unofficial/week-in-the-life/[node:title]';
+  $strongarm->value = 'programs/mba/student-life/week-in-the-life/[node:title]';
   $export['pathauto_node_week_in_the_life_pattern'] = $strongarm;
 
   return $export;
