@@ -25,7 +25,7 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
     'field_witl_post_mba_goals' => array(
       'formatter_settings' => array(
         'ft' => array(
-          'lb' => 'Post Grad Goals',
+          'lb' => 'Post Graduation Goals',
         ),
       ),
     ),
@@ -66,7 +66,7 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
     'field_witl_post_mba_goals' => array(
       'formatter_settings' => array(
         'ft' => array(
-          'lb' => 'Post Grad Goals',
+          'lb' => 'Post Graduation Goals',
         ),
       ),
     ),
