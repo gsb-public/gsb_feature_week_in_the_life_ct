@@ -1601,8 +1601,12 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'module' => 'text',
         'settings' => array(
-          'conditions' => array(),
-          'trim_length' => 110,
+          'conditions' => array(
+            0 => array(
+              'condition' => '',
+            ),
+          ),
+          'trim_length' => 150,
         ),
         'type' => 'text_trimmed',
         'weight' => 3,
