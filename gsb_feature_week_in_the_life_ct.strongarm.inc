@@ -250,5 +250,12 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm->value = 'programs/mba/student-life/week-in-the-life/[node:title]';
   $export['pathauto_node_week_in_the_life_pattern'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_access_node_type_week_in_the_life';
+  $strongarm->value = 0;
+  $export['workbench_access_node_type_week_in_the_life'] = $strongarm;
+
   return $export;
 }
