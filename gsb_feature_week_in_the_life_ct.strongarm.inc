@@ -199,6 +199,9 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
         'workbench_access' => array(
           'weight' => '1',
         ),
+        'redirect' => array(
+          'weight' => '19',
+        ),
       ),
       'display' => array(),
     ),
