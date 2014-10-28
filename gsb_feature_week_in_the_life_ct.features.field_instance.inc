@@ -114,7 +114,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => 'witl-journal-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -298,7 +298,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Photo',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => 'witl-journal-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -690,7 +690,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Photo',
     'required' => 1,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'default_image' => 0,
       'file_directory' => 'witl-photos',
       'file_extensions' => 'png gif jpg jpeg',
