@@ -33,5 +33,6 @@ function gsb_feature_week_in_the_life_ct_node_info() {
       'help' => '',
     ),
   );
+  drupal_alter('node_info', $items);
   return $items;
 }

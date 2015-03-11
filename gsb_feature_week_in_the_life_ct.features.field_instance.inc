@@ -51,6 +51,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Description',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -115,6 +117,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'witl-journal-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -178,6 +182,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Time',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_value' => 'strtotime',
       'default_value2' => 'same',
       'default_value_code' => '1 January 1970',
@@ -239,6 +245,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Description',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -299,6 +307,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'witl-journal-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -362,6 +372,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Time',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_value' => 'strtotime',
       'default_value2' => 'same',
       'default_value_code' => '1 January 1970',
@@ -423,6 +435,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Description',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -483,6 +497,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'witl-journal-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -546,6 +562,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Time',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_value' => 'strtotime',
       'default_value2' => 'same',
       'default_value_code' => '1 January 1970',
@@ -616,6 +634,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'First Name',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -691,6 +711,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'required' => 1,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'witl-photos',
       'file_extensions' => 'png gif jpg jpeg',
@@ -758,6 +780,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Last Name',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -823,6 +847,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Middle Name',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -888,6 +914,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Salutation',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -955,6 +983,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Search field',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'selected_fields' => array(
         'concat_field_entity_label' => 'concat_field_entity_label',
         'field_first_name' => 'field_first_name',
@@ -1027,6 +1057,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Submit',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1089,6 +1121,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Archive this profile',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1155,6 +1189,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Day Of The Week',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1220,6 +1256,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Day Of The Week',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1285,6 +1323,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Day Of The Week',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1346,6 +1386,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Facts',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -1414,6 +1456,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Facts Title',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -1483,6 +1527,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Journal Entry',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1545,6 +1591,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Journal Entry',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1607,6 +1655,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Journal Entry',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1676,6 +1726,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Post MBA Goals',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -1746,6 +1798,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Under Photo Facts',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -1828,6 +1882,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'label' => 'Graduation Year',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_value' => 'now',
       'default_value2' => 'same',
       'default_value_code' => '',

@@ -260,5 +260,12 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm->value = 0;
   $export['workbench_access_node_type_week_in_the_life'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_week_in_the_life';
+  $strongarm->value = 'draft';
+  $export['workbench_moderation_default_state_week_in_the_life'] = $strongarm;
+
   return $export;
 }
