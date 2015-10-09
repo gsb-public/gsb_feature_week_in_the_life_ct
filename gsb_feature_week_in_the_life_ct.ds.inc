@@ -106,8 +106,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
         11 => 'field_witl_journal_entry_2',
         12 => 'field_witl_day_of_week_1',
         13 => 'field_witl_day_of_week_3',
-        14 => 'field_witl_journal_entry_3',
-        15 => 'field_witl_journal_entry_1',
+        14 => 'field_witl_journal_entry_1',
+        15 => 'field_witl_journal_entry_3',
         16 => 'field_image_single_public',
         17 => 'group_witl_photo_wrap_mba',
         18 => 'field_year',
@@ -129,8 +129,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
       'field_witl_journal_entry_2' => 'ds_content',
       'field_witl_day_of_week_1' => 'ds_content',
       'field_witl_day_of_week_3' => 'ds_content',
-      'field_witl_journal_entry_3' => 'ds_content',
       'field_witl_journal_entry_1' => 'ds_content',
+      'field_witl_journal_entry_3' => 'ds_content',
       'field_image_single_public' => 'ds_content',
       'group_witl_photo_wrap_mba' => 'ds_content',
       'field_year' => 'ds_content',
@@ -143,6 +143,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
   );
   $export['node|week_in_the_life|default'] = $ds_layout;
 
@@ -157,8 +159,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'group_witl_listing_wrap',
-        1 => 'title',
-        2 => 'field_image_single_public',
+        1 => 'field_image_single_public',
+        2 => 'title',
         3 => 'field_year',
         4 => 'field_witl_post_mba_goals',
         5 => 'node_link',
@@ -166,8 +168,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     ),
     'fields' => array(
       'group_witl_listing_wrap' => 'ds_content',
-      'title' => 'ds_content',
       'field_image_single_public' => 'ds_content',
+      'title' => 'ds_content',
       'field_year' => 'ds_content',
       'field_witl_post_mba_goals' => 'ds_content',
       'node_link' => 'ds_content',
@@ -179,6 +181,8 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'layout_wrapper' => 'div',
     'layout_attributes' => '',
     'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
   );
   $export['node|week_in_the_life|teaser'] = $ds_layout;
 

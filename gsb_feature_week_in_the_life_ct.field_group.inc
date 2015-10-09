@@ -147,7 +147,8 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Witl Days group',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-witl-group-days',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -179,7 +180,8 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Photo wrap',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-witl-listing-wrap',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -214,7 +216,8 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Photo with info',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-witl-photo-info',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -246,8 +249,13 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Photo wrap mba',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-witl-photo-wrap-mba',
         'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'none',
       ),
       'formatter' => 'open',
     ),
@@ -274,7 +282,8 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
     'format_settings' => array(
       'label' => 'Photo wrap',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-witl-photo-wrap',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',

@@ -10,7 +10,8 @@
 function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_1-field_body'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_1-field_body'
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'default_value' => NULL,
@@ -76,7 +77,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_1-field_image_single_public'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_1-field_image_single_public'
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'deleted' => 0,
@@ -142,7 +144,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_1-field_time'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_1-field_time'
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'deleted' => 0,
@@ -158,6 +161,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -210,7 +214,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_2-field_body'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_2-field_body'
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'default_value' => NULL,
@@ -270,7 +275,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_2-field_image_single_public'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_2-field_image_single_public'
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'deleted' => 0,
@@ -332,7 +338,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_2-field_time'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_2-field_time'
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'deleted' => 0,
@@ -348,6 +355,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -400,7 +408,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_3-field_body'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_3-field_body'
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'default_value' => NULL,
@@ -460,7 +469,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_3-field_image_single_public'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_3-field_image_single_public'
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'deleted' => 0,
@@ -522,7 +532,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'field_collection_item-field_witl_journal_entry_3-field_time'
+  // Exported field_instance:
+  // 'field_collection_item-field_witl_journal_entry_3-field_time'
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'deleted' => 0,
@@ -538,6 +549,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -945,11 +957,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'concat_field',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'concat_field_blank',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 29,
       ),
       'featured' => array(
@@ -1027,9 +1036,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => NULL,
         'settings' => array(),
-        'type' => 'submit_field_default',
+        'type' => 'hidden',
         'weight' => 30,
       ),
       'featured' => array(
@@ -1703,11 +1711,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'label' => 'above',
         'module' => 'text',
         'settings' => array(
-          'conditions' => array(
-            0 => array(
-              'condition' => '',
-            ),
-          ),
+          'conditions' => array(),
           'trim_length' => 150,
         ),
         'type' => 'text_trimmed',
@@ -1751,7 +1755,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_under_photo_facts'
+  // Exported field_instance:
+  // 'node-week_in_the_life-field_witl_under_photo_facts'
   $field_instances['node-week_in_the_life-field_witl_under_photo_facts'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1837,6 +1842,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
@@ -1864,6 +1870,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
