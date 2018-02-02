@@ -8,7 +8,7 @@
  * Implements hook_field_group_info().
  */
 function gsb_feature_week_in_the_life_ct_field_group_info() {
-  $export = array();
+  $field_groups = array();
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -36,7 +36,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_first_day|node|week_in_the_life|form'] = $field_group;
+  $field_groups['group_first_day|node|week_in_the_life|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -64,7 +64,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_second_day|node|week_in_the_life|form'] = $field_group;
+  $field_groups['group_second_day|node|week_in_the_life|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -92,7 +92,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       ),
     ),
   );
-  $export['group_third_day|node|week_in_the_life|form'] = $field_group;
+  $field_groups['group_third_day|node|week_in_the_life|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -124,7 +124,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_first_day|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_first_day|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -158,7 +158,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_group_days|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_group_days|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -191,7 +191,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_listing_wrap|node|week_in_the_life|teaser'] = $field_group;
+  $field_groups['group_witl_listing_wrap|node|week_in_the_life|teaser'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -227,7 +227,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_photo_info|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_photo_info|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -260,7 +260,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_photo_wrap_mba|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_photo_wrap_mba|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -293,7 +293,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_photo_wrap|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_photo_wrap|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -325,7 +325,7 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_second_day|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_second_day|node|week_in_the_life|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -357,7 +357,19 @@ function gsb_feature_week_in_the_life_ct_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $export['group_witl_third_day|node|week_in_the_life|default'] = $field_group;
+  $field_groups['group_witl_third_day|node|week_in_the_life|default'] = $field_group;
 
-  return $export;
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('First Day');
+  t('Photo with info');
+  t('Photo wrap');
+  t('Photo wrap mba');
+  t('Second Day');
+  t('Second day');
+  t('Third Day');
+  t('Third day');
+  t('Witl Days group');
+
+  return $field_groups;
 }

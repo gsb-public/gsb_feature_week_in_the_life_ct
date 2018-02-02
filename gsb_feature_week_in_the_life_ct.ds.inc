@@ -21,6 +21,13 @@ function gsb_feature_week_in_the_life_ct_ds_field_settings_info() {
       'weight' => '2',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '0',
+        'wrapper' => 'h1',
+        'class' => '',
+        'ft' => array(),
+        'conditions' => array(),
+      ),
     ),
     'field_witl_post_mba_goals' => array(
       'formatter_settings' => array(
@@ -145,6 +152,7 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
+    'layout_disable_css' => FALSE,
   );
   $export['node|week_in_the_life|default'] = $ds_layout;
 

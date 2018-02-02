@@ -83,6 +83,7 @@ features[variable][] = node_submitted_week_in_the_life
 features[variable][] = pathauto_node_week_in_the_life_pattern
 features[variable][] = workbench_access_node_type_week_in_the_life
 features[variable][] = workbench_moderation_default_state_week_in_the_life
+features[variable][] = xmlsitemap_settings_node_week_in_the_life
 features_exclude[field][node-week_in_the_life-field_witl_under_photo_facts] = node-week_in_the_life-field_witl_under_photo_facts
 features_exclude[field][node-week_in_the_life-field_witl_facts_title] = node-week_in_the_life-field_witl_facts_title
 features_exclude[field][node-week_in_the_life-field_witl_facts] = node-week_in_the_life-field_witl_facts

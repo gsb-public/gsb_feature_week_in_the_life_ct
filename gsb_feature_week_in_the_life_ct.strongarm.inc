@@ -235,6 +235,69 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
       'teaser_listing' => array(
         'custom_settings' => FALSE,
       ),
+      'seed_research_project' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_ctas' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum_one' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_curriculum_two' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_director' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_participants_desc' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_participants_intro' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_related' => array(
+        'custom_settings' => FALSE,
+      ),
+      'page_featured_programs' => array(
+        'custom_settings' => FALSE,
+      ),
+      'featured_program' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_director' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_leadership' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_one' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_teaching_programs' => array(
+        'custom_settings' => FALSE,
+      ),
+      'faculty_two' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_faculty' => array(
+        'custom_settings' => FALSE,
+      ),
+      'field_program_who_should_attend' => array(
+        'custom_settings' => FALSE,
+      ),
+      'guest_speakers_advisors' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_contact' => array(
+        'custom_settings' => FALSE,
+      ),
+      'program_explore_other' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -317,6 +380,16 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
   $strongarm->name = 'workbench_moderation_default_state_week_in_the_life';
   $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_week_in_the_life'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings_node_week_in_the_life';
+  $strongarm->value = array(
+    'status' => '1',
+    'priority' => '0.5',
+  );
+  $export['xmlsitemap_settings_node_week_in_the_life'] = $strongarm;
 
   return $export;
 }
