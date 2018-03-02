@@ -11,7 +11,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_1-field_body'
+  // 'field_collection_item-field_witl_journal_entry_1-field_body'.
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'default_value' => NULL,
@@ -78,7 +78,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_1-field_image_single_public'
+  // 'field_collection_item-field_witl_journal_entry_1-field_image_single_public'.
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'deleted' => 0,
@@ -145,7 +145,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_1-field_time'
+  // 'field_collection_item-field_witl_journal_entry_1-field_time'.
   $field_instances['field_collection_item-field_witl_journal_entry_1-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_1',
     'deleted' => 0,
@@ -215,7 +215,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_2-field_body'
+  // 'field_collection_item-field_witl_journal_entry_2-field_body'.
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'default_value' => NULL,
@@ -276,7 +276,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_2-field_image_single_public'
+  // 'field_collection_item-field_witl_journal_entry_2-field_image_single_public'.
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'deleted' => 0,
@@ -339,7 +339,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_2-field_time'
+  // 'field_collection_item-field_witl_journal_entry_2-field_time'.
   $field_instances['field_collection_item-field_witl_journal_entry_2-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_2',
     'deleted' => 0,
@@ -409,7 +409,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_3-field_body'
+  // 'field_collection_item-field_witl_journal_entry_3-field_body'.
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_body'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'default_value' => NULL,
@@ -470,7 +470,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_3-field_image_single_public'
+  // 'field_collection_item-field_witl_journal_entry_3-field_image_single_public'.
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_image_single_public'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'deleted' => 0,
@@ -533,7 +533,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'field_collection_item-field_witl_journal_entry_3-field_time'
+  // 'field_collection_item-field_witl_journal_entry_3-field_time'.
   $field_instances['field_collection_item-field_witl_journal_entry_3-field_time'] = array(
     'bundle' => 'field_witl_journal_entry_3',
     'deleted' => 0,
@@ -602,7 +602,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_first_name'
+  // Exported field_instance: 'node-week_in_the_life-field_first_name'.
   $field_instances['node-week_in_the_life-field_first_name'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -669,7 +669,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_image_single_public'
+  // Exported field_instance: 'node-week_in_the_life-field_image_single_public'.
   $field_instances['node-week_in_the_life-field_image_single_public'] = array(
     'bundle' => 'week_in_the_life',
     'deleted' => 0,
@@ -748,7 +748,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_last_name'
+  // Exported field_instance: 'node-week_in_the_life-field_last_name'.
   $field_instances['node-week_in_the_life-field_last_name'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -815,7 +815,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_middle_name'
+  // Exported field_instance: 'node-week_in_the_life-field_middle_name'.
   $field_instances['node-week_in_the_life-field_middle_name'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -882,7 +882,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_salutation'
+  // Exported field_instance: 'node-week_in_the_life-field_salutation'.
   $field_instances['node-week_in_the_life-field_salutation'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -949,7 +949,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_search_field'
+  // Exported field_instance: 'node-week_in_the_life-field_search_field'.
   $field_instances['node-week_in_the_life-field_search_field'] = array(
     'bundle' => 'week_in_the_life',
     'deleted' => 0,
@@ -1028,7 +1028,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_submit'
+  // Exported field_instance: 'node-week_in_the_life-field_submit'.
   $field_instances['node-week_in_the_life-field_submit'] = array(
     'bundle' => 'week_in_the_life',
     'deleted' => 0,
@@ -1081,7 +1081,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_archive'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_archive'.
   $field_instances['node-week_in_the_life-field_witl_archive'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => array(
@@ -1146,7 +1146,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_1'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_1'.
   $field_instances['node-week_in_the_life-field_witl_day_of_week_1'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => array(
@@ -1213,7 +1213,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_2'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_2'.
   $field_instances['node-week_in_the_life-field_witl_day_of_week_2'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => array(
@@ -1280,7 +1280,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_3'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_day_of_week_3'.
   $field_instances['node-week_in_the_life-field_witl_day_of_week_3'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => array(
@@ -1347,7 +1347,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_facts'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_facts'.
   $field_instances['node-week_in_the_life-field_witl_facts'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1417,7 +1417,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_facts_title'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_facts_title'.
   $field_instances['node-week_in_the_life-field_witl_facts_title'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1487,7 +1487,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_journal_entry_1'
+  // Exported field_instance:
+  // 'node-week_in_the_life-field_witl_journal_entry_1'.
   $field_instances['node-week_in_the_life-field_witl_journal_entry_1'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1551,7 +1552,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_journal_entry_2'
+  // Exported field_instance:
+  // 'node-week_in_the_life-field_witl_journal_entry_2'.
   $field_instances['node-week_in_the_life-field_witl_journal_entry_2'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1615,7 +1617,8 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_journal_entry_3'
+  // Exported field_instance:
+  // 'node-week_in_the_life-field_witl_journal_entry_3'.
   $field_instances['node-week_in_the_life-field_witl_journal_entry_3'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1679,7 +1682,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_witl_post_mba_goals'
+  // Exported field_instance: 'node-week_in_the_life-field_witl_post_mba_goals'.
   $field_instances['node-week_in_the_life-field_witl_post_mba_goals'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1756,7 +1759,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'node-week_in_the_life-field_witl_under_photo_facts'
+  // 'node-week_in_the_life-field_witl_under_photo_facts'.
   $field_instances['node-week_in_the_life-field_witl_under_photo_facts'] = array(
     'bundle' => 'week_in_the_life',
     'default_value' => NULL,
@@ -1826,7 +1829,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-week_in_the_life-field_year'
+  // Exported field_instance: 'node-week_in_the_life-field_year'.
   $field_instances['node-week_in_the_life-field_year'] = array(
     'bundle' => 'week_in_the_life',
     'deleted' => 0,

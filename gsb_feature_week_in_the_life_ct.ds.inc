@@ -152,7 +152,6 @@ function gsb_feature_week_in_the_life_ct_ds_layout_settings_info() {
     'layout_attributes_merge' => 1,
     'layout_link_attribute' => '',
     'layout_link_custom' => '',
-    'layout_disable_css' => FALSE,
   );
   $export['node|week_in_the_life|default'] = $ds_layout;
 
