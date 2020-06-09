@@ -239,19 +239,22 @@ function gsb_feature_week_in_the_life_ct_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '17',
+          'weight' => '18',
         ),
         'title' => array(
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '16',
+          'weight' => '17',
         ),
         'workbench_access' => array(
           'weight' => '1',
         ),
         'redirect' => array(
-          'weight' => '19',
+          'weight' => '20',
+        ),
+        'xmlsitemap' => array(
+          'weight' => '21',
         ),
       ),
       'display' => array(),

@@ -55,6 +55,7 @@ features[field_instance][] = node-week_in_the_life-field_middle_name
 features[field_instance][] = node-week_in_the_life-field_salutation
 features[field_instance][] = node-week_in_the_life-field_search_field
 features[field_instance][] = node-week_in_the_life-field_submit
+features[field_instance][] = node-week_in_the_life-field_tag
 features[field_instance][] = node-week_in_the_life-field_witl_archive
 features[field_instance][] = node-week_in_the_life-field_witl_day_of_week_1
 features[field_instance][] = node-week_in_the_life-field_witl_day_of_week_2

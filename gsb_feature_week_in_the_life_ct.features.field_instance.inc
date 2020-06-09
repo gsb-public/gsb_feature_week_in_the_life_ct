@@ -1023,7 +1023,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'concat_field_default',
-      'weight' => 18,
+      'weight' => 19,
     ),
     'workbench_access_field' => 0,
   );
@@ -1077,6 +1077,60 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
       ),
       'type' => 'submit_field',
       'weight' => 1,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'node-week_in_the_life-field_tag'.
+  $field_instances['node-week_in_the_life-field_tag'] = array(
+    'bundle' => 'week_in_the_life',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 31,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'node',
+    'field_name' => 'field_tag',
+    'label' => 'Keywords',
+    'required' => 0,
+    'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 13,
     ),
     'workbench_access_field' => 0,
   );
@@ -1612,7 +1666,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
         'maxlength_js_label' => '',
       ),
       'type' => 'field_collection_embed',
-      'weight' => 14,
+      'weight' => 15,
     ),
     'workbench_access_field' => 0,
   );
@@ -1930,6 +1984,7 @@ function gsb_feature_week_in_the_life_ct_field_default_field_instances() {
   t('First Name');
   t('Graduation Year');
   t('Journal Entry');
+  t('Keywords');
   t('Last Name');
   t('Middle Name');
   t('Photo');
